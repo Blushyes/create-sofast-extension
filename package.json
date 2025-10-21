@@ -1,0 +1,15 @@
+{
+  "name": "create-sofast-extension",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Scaffold a Sofast extension UI project using Vite.",
+  "author": "Blushyes",
+  "bin": {
+    "create-sofast-extension": "bin.js"
+  },
+  "dependencies": {
+    "colorette": "^2.0.20",
+    "prompts": "^2.4.2"
+  }
+}
