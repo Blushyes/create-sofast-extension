@@ -1,16 +1,12 @@
-create-sofast-extension
+## create-sofast-extension
 
 Scaffold a Sofast extension UI project with Vite, supporting React, Vue, or no framework.
 
 Usage
 
-- Run: `node extensions/create_extension/bin.js` (or install and run `create-sofast-extension`).
-- Prompts:
-  - Plugin directory/name
-  - Use TypeScript
-  - Framework: react, vue, empty
-  - Display title (used in index.html)
-  - Use Tailwind (default: Yes)
+```bash
+npx create-sofast-extension
+```
 
 What you get
 
