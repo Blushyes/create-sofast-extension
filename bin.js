@@ -211,7 +211,7 @@ function buildPackageJSON({ name, ts, framework, uiEntry, tailwind, title }) {
       engineVersion: '^0.1.0',
       ui: { entry: uiEntry },
       commands: [
-        { name: 'hello', title: title || 'Hello Sofast Extension', mode: 'view', keywords: ['hello', 'sofast', 'extension'] }
+        { name: 'hello', title: title || 'Hello Sofast Extension', mode: 'view' }
       ]
     },
     dependencies: {},
