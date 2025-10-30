@@ -5,13 +5,13 @@ Scaffold a Sofast extension UI project with Vite, supporting React, Vue, or no f
 Usage
 
 ```bash
-npx create-sofast-extension
+npm create sofast-extension
 ```
 
 What you get
 
 - UI build via `vite.config.ts` (base `./`, single bundle, `outDir: dist`).
-- `package.json` with a Sofast manifest under `sofast`, and dev/build/preview scripts.
+- `package.json` with top-level `commands` manifest, and dev/build/preview scripts.
 
 Templates
 

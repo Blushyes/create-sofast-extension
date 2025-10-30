@@ -15,4 +15,4 @@ Scripts
 Notes
 
 - This scaffold contains a single command with title "Hello Sofast Extension" to render the UI.
-- Update `package.json` `sofast.commands` as needed for your use cases.
+- Update `package.json` top-level `commands` as needed for your use cases.

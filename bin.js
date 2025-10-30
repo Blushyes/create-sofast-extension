@@ -207,13 +207,10 @@ function buildPackageJSON({ name, ts, framework, uiEntry, tailwind, title }) {
       build: 'vite build && (cp package.json dist/package.json || copy package.json dist\\package.json >NUL)',
       preview: 'vite preview'
     },
-    sofast: {
-      engineVersion: '^0.1.0',
-      ui: { entry: uiEntry },
-      commands: [
-        { name: 'hello', title: title || 'Hello Sofast Extension', mode: 'view' }
-      ]
-    },
+    // New manifest: top-level commands only; UI entry defaults to index.html
+    commands: [
+      { name: 'hello', title: title || 'Hello Sofast Extension', mode: 'view' }
+    ],
     dependencies: {},
     devDependencies: {
       vite: '^7.1.6'
