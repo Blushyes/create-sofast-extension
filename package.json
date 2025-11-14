@@ -1,7 +1,7 @@
 {
   "name": "create-sofast-extension",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Scaffold a Sofast extension UI project using Vite.",
   "author": "Blushyes",
   "bin": {
